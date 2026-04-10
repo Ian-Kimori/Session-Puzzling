@@ -9,7 +9,7 @@ In the context of your pentesting, you are interacting with the Zabbix Frontend 
 Session Puzzling (or Session Variable Overloading) occurs when an application uses a single session variable for multiple purposes. For example, if Zabbix stored a variable like `$_SESSION['target_user_id']` and failed to clear it between different modules, an action in one tab could accidentally apply to a user selected in another tab.
 
 ## Clean End-to-End Test Plan
-To test this in the latest Zabbix (v6.x, v7.0, or the latest v8.0), focus on modules that involve multi-step wizards or mass updates, as these are the most likely candidates for session variable reuse.
+To test this in the latest Zabbix (v6.x, v7.0, or the latest v8.0), focus on modules that involve **multi-step wizards** or **mass updates**, as these are the most likely candidates for session variable reuse.
 
 ### Phase 1: Preparation
 **Target:** A Zabbix instance where you have Admin or Super Admin rights.
