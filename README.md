@@ -12,7 +12,7 @@ Session Puzzling (or Session Variable Overloading) occurs when an application us
 To test this in the latest Zabbix (v6.x, v7.0, or the latest v8.0), focus on modules that involve **multi-step wizards** or **mass updates**, as these are the most likely candidates for session variable reuse.
 
 ### Phase 1: Preparation
-**Target:** A Zabbix instance where you have Admin or Super Admin rights.
+**Target:** A Zabbix instance where you have **Admin** or **Super Admin** rights.
 
 **Tools:** Two browser tabs (same session/browser profile) and Burp Suite.
 
