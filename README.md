@@ -1,7 +1,7 @@
 # Session-Puzzling
 
-What is Zabbix?
-In short, Zabbix is an enterprise-class, open-source monitoring solution. It is used to track the health, performance, and availability of network servers, devices, virtual machines, and cloud services.
+## What is Zabbix?
+Zabbix is an enterprise-class, open-source monitoring solution. It is used to track the health, performance, and availability of network servers, devices, virtual machines, and cloud services.
 
 In the context of your pentesting, you are interacting with the Zabbix Frontend (the PHP-based web UI). This interface is what manages the session variables you are trying to "puzzle."
 
